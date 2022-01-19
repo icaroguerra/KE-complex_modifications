@@ -1,0 +1,21 @@
+{
+  "title": "PT Keyboard > Br Keyboard",
+  "rules": [
+            {
+              "description": "Swap: from Option+2 to Shift+2 = @",
+              "manipulators":
+              [
+                {
+                    "type": "basic",
+                    "from": {"key_code": "2", "modifiers": {"mandatory": ["left_shift"], "optional": ["any"]}},
+                    "to":[{"key_code": "2", "modifiers": ["option"]}]
+                },
+                {
+                    "type": "basic",
+                    "from": {"key_code": "2", "modifiers": {"mandatory": ["right_shift"], "optional": ["any"]}},
+                    "to":[{"key_code": "2", "modifiers": ["option"]}]
+                }
+              ]
+            }
+          ]
+}
